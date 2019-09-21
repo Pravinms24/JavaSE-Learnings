@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class GetCharactersUntilQentered {
 
 	public static void main(String[] args) {
-		ArrayList<Integer> al=new ArrayList<Integer>();
+		ArrayList al=new ArrayList();
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter Characters :");
 		String n=sc.next();

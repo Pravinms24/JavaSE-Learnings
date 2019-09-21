@@ -25,7 +25,8 @@ public class ArrayListBasic {
 		al.add(5);
 		al.add('a');
 		al.add(true);
-		//Collections.sort(al);
+		//	Collections.sort(al);
+		al.add(1, "pravin");//to add in particular index
 		System.out.println(al);
 	
 		
