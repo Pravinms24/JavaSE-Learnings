@@ -11,6 +11,12 @@ public class AnagramArrayList {
 		String s2=sc.next();
 		s1 = s1.replaceAll("\\s", "").toLowerCase();//study this
 		s2 = s2.replaceAll("\\s", "").toLowerCase();
+/*String word = s1.replace ("\\s", "");
+ * It replaces "\\s" character with "" , 
+ * so it returns a String object which looks like this- "JavaisRobust".
+ * Note: Since "\\s" means s single space in unicode 
+ * hence it replaces every single space with "" which means nothing.
+		 */
 		if(s1.length()!=s2.length())
 		{
 			System.out.println("Not Anagram");
@@ -33,8 +39,10 @@ public class AnagramArrayList {
 			{
 				System.out.println("Both are Anagrams");
 			}
+			else
+				System.out.println("not anagrams");
 		}
-
+sc.close();
 	}
 
 }
