@@ -40,7 +40,6 @@ public class ReadLinesWordsCharactersInString {
         System.out.println("Number of paragraphs = " + paragraphCount); 
         System.out.println("Total number of whitespaces = " + whitespaceCount); 
 		
-
 	}
 	}
 

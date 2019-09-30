@@ -9,7 +9,7 @@ public class MultiplicationOfNPrimeNumbers {
 		int count=0,prime=0,mul=1;
 		while(true)
 		{
-			for(int i=2;i<=100;i++)
+			for(int i=1;i<=100;i++)
 			{
 				prime=0;
 				for(int j=1;j<=i;j++)
@@ -23,6 +23,7 @@ public class MultiplicationOfNPrimeNumbers {
 				{
 					count++;
 					mul*=i;
+					//System.out.println(i);
 				}
 				if(count==n)
 				{
